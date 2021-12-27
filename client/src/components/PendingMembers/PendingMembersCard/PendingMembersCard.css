@@ -1,0 +1,40 @@
+.pending-card-container {
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  height: 75px;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.pending-card-SNo {
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pending-card-name {
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pending-card-addAdmin {
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pending-card-removeMember {
+  grid-column: 4/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

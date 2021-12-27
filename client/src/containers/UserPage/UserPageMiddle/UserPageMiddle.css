@@ -1,0 +1,87 @@
+.user-info-container{
+  display: grid;
+  grid-template-rows: 10% 10% 10% 10% 60%;
+  height: 500px;
+  width: 400px;
+  border: solid 4px black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f0e7e6;
+}
+
+.user-info-id {
+  padding: 5px;
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  margin: 5px;
+  background: white;
+  border-radius: 6px;
+}
+
+.user-info-fullName {
+  padding: 5px;
+  grid-row: 2/ span 1;
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  margin: 5px;
+  background: white;
+  border-radius: 6px;
+}
+
+.user-info-userName {
+  padding: 5px;
+  grid-row: 3/ span 1;
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  margin: 5px;
+  background: white;
+  border-radius: 6px;
+}
+
+.user-info-email {
+  padding: 5px;
+  grid-row: 4/ span 1;
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  margin: 5px;
+  background: white;
+  border-radius: 6px;
+}
+/* 
+.user-info-posts-head {
+  padding: 5px;
+  grid-row: 5/ span 1;
+  grid-column: 1/ span 1;
+}
+
+.user-info-posts-list {
+  padding: 5px;
+  grid-row: 5/ span 1;
+  grid-column: 2/ span 1;
+} */
+
+.user-info-groups-head {
+  padding: 5px;
+  grid-row: 5/ span 1;
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  margin: 5px;
+  background: white;
+  border-radius: 6px;
+}
+
+.user-info-groups-list {
+  padding: 5px;
+  grid-row: 5/ span 1;
+  /* grid-column: 2/ span 1; */
+  font-size: 18px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+

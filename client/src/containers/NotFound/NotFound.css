@@ -1,0 +1,20 @@
+.not-found{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.h1-nf{
+  text-align: center;
+}
+
+.img-gif{
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}

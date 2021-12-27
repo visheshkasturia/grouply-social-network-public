@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupAdmins matches snapshot 1`] = `
+<div
+  className="statistics-group-container"
+>
+  <div
+    className="statistics-group-name"
+  >
+     
+    <b>
+      Group Name:
+    </b>
+     
+    test
+  </div>
+  <div
+    className="statistics-group-tags"
+  >
+    <b>
+      Tags:
+    </b>
+    <ul>
+      <li>
+        tag
+      </li>
+    </ul>
+  </div>
+  <div
+    className="statistics-group-members"
+  >
+    <b>
+      Number of Members:
+    </b>
+     
+    1
+  </div>
+  <div
+    className="statistics-group-posts"
+  >
+     
+    <b>
+      Number of Posts:
+    </b>
+      
+    1
+  </div>
+  <div
+    className="statistics-group-admins"
+  >
+    <b>
+      Admins:
+    </b>
+    <ul>
+      <li>
+        abc
+      </li>
+    </ul>
+  </div>
+</div>
+`;

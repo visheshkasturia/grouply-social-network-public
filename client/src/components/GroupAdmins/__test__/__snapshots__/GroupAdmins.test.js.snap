@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupAdminCard matches snapshot 1`] = `
+<div
+  className="admin-card-container"
+>
+  <div
+    className="admin-card-SNo flex-center"
+  >
+     
+     
+  </div>
+  <div
+    className="admin-card-name flex-center"
+  >
+     
+    abc
+     
+  </div>
+  <div
+    className="admin-card-demoteAdmin flex-center"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Demote Admin
+    </button>
+  </div>
+</div>
+`;
+
+exports[`GroupAdmins matches snapshot 1`] = `
+<div>
+  <div
+    className="admin-card-container"
+  >
+    <div
+      className="admin-card-SNo flex-center"
+    >
+       
+      1
+       
+    </div>
+    <div
+      className="admin-card-name flex-center"
+    >
+       
+      abc
+       
+    </div>
+    <div
+      className="admin-card-demoteAdmin flex-center"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Demote Admin
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemberCard matches snapshot 1`] = `
+<div
+  className="member-card-container"
+>
+  <div
+    className="member-card-SNo flex-center"
+  >
+     
+     
+  </div>
+  <div
+    className="member-card-name flex-center"
+  >
+     
+    test1
+     
+  </div>
+  <div
+    className="member-card-addAdmin flex-center"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Make Admin
+    </button>
+  </div>
+  <div
+    className="member-card-removeMember flex-center"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Remove Member
+    </button>
+  </div>
+  <div
+    className="add-admin-status"
+  />
+</div>
+`;

@@ -1,0 +1,31 @@
+.myGroup-card-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  background: #f0e7e6;
+  height: 130px;
+}
+
+.myGroup-card-Name {
+  grid-column: 1/ span 1;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myGroup-card-description {
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myGroup-card-button {
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

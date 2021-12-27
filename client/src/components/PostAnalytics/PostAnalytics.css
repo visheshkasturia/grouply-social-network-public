@@ -1,0 +1,15 @@
+.postAnalytics-container {
+  display: grid;
+  grid-template-rows: 30% 40% 30%;
+  border: solid 4px black;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  width: 250px;
+  background: #f0e7e6;
+  margin: 10px;
+}
+
+.postAnalytics-title {
+  grid-row: 1/ span 1;
+}

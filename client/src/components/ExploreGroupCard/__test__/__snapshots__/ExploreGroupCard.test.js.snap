@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreGroupCard matches snapshot 1`] = `
+<div
+  className="explore-card-container"
+>
+  <h3
+    className="explore-group-Name"
+  >
+    test
+  </h3>
+  <div
+    className="explore-group-description"
+  >
+    desc
+  </div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+     Request to Join 
+  </button>
+  <div />
+</div>
+`;

@@ -1,0 +1,23 @@
+.middle{
+  grid-column: 2/ span 1;
+  padding-top:2em;
+}
+
+.statistics-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  border: solid 4px black;
+  border-radius: 10px;
+  background: #f0e7e6;
+  height: 60px;
+  /* width: 300px; */
+}
+
+.btn-groups {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}

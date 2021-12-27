@@ -1,0 +1,12 @@
+.explore-card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 4px black;
+  border-radius: 10px;
+  margin: 10px;
+  height: 180px;
+  width: 250px;
+  background: #f0e7e6;
+}

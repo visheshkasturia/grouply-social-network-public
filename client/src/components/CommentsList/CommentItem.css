@@ -1,0 +1,41 @@
+.commentItem {
+  display: grid;
+  grid-template-column: 33% 33% 34%;
+  grid-template-rows: 65% 35%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background: #cbf5d3;
+}
+
+.comment-content {
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 3;
+  margin: 10px;
+}
+
+.comment-author {
+  grid-row: 2/ span 1;
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-edit {
+  grid-row: 2/ span 1;
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-delete {
+  grid-row: 2/ span 1;
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.make-flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#sort-date {
+  display: inline;
+  margin-left: 33%;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#sort-alpha {
+  display: inline;
+  margin-top: 20px;
+}

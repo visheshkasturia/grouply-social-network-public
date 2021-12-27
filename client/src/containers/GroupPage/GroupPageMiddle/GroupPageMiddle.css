@@ -1,0 +1,9 @@
+#hide-posts {
+  display: inline;
+  margin-left: 33%;
+  margin-right: 30px;
+}
+
+#view-flagged {
+  display: inline;
+}

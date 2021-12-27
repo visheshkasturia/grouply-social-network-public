@@ -1,0 +1,32 @@
+.invite-card-container {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  height: 100px;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.invite-card-groupName {
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.invite-card-accept {
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite-card-reject {
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
