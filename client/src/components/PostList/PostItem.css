@@ -1,0 +1,78 @@
+.postItem {
+  /* margin-bottom: 30px; */
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: 20% 50% 10% 20%;
+  height: 400px;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 10px;
+  background: #f0e7e6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.postItem:hover {
+  cursor: pointer;
+}
+
+.postItem-title {
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 3;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postItem-content {
+  grid-row: 2/ span 1;
+  grid-column: 1/ span 3;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.postItem-author {
+  grid-row: 3/ span 1;
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 18px;
+
+}
+
+.postItem-comment {
+  grid-row: 3/ span 1;
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 18px;
+}
+
+.postItem-flagged {
+  grid-row: 3/ span 1;
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 18px;
+}
+
+.postIte-view {
+  grid-row: 4/ span 1;
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postItem-delete {
+  grid-row: 4/ span 1;
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+

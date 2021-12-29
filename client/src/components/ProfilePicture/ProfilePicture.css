@@ -1,0 +1,15 @@
+.profile-img{
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+  margin-left: 1em;
+  border: solid 10px black;
+}
+
+.rounded{
+  margin:auto;
+  overflow:hidden;
+  border-radius:50%;
+  height:200px;
+  width:200px;
+}

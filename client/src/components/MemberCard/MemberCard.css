@@ -1,0 +1,59 @@
+.member-card-container {
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: 80% 20%;
+  height: 110px;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.member-card-SNo {
+  grid-column: 1/ span 1;
+  grid-row: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.member-card-name {
+  grid-column: 2/ span 1;
+  grid-row: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.member-card-addAdmin {
+  grid-column: 3/ span 1;
+  grid-row: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.member-card-removeMember {
+  grid-column: 4/ span 1;
+  grid-row: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.add-admin-status {
+  grid-column: 1/ span 4;
+  grid-row: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}

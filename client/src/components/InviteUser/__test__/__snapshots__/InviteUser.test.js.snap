@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteUser matches snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Enter Username to invite:
+    <input
+      name="userToInvite"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <button
+    type="submit"
+  >
+     Submit 
+  </button>
+  <div
+    className="invite-status"
+  />
+</form>
+`;

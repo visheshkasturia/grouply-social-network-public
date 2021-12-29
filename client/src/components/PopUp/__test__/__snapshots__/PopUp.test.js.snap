@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopUp renders correctly Matches snapshot 1`] = `
+<div>
+  <div
+    className="popup-box"
+  >
+    <div
+      className="box"
+    >
+      <button
+        className="close-btn"
+        data-testid="pop-close-test"
+        type="button"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+`;

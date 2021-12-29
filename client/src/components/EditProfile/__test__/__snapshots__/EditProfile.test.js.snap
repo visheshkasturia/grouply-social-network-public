@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditProfile matches snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Enter Full Name:
+    <input
+      name="fullName"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <br />
+  </label>
+  <label>
+    Enter Username:
+    <input
+      name="userName"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter Profile Picture URL:
+    <input
+      name="dpURL"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <button
+    type="submit"
+  >
+     Submit 
+  </button>
+</form>
+`;

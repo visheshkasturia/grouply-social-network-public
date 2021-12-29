@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateGroup matches snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Enter Group Name:
+    <input
+      name="groupName"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <br />
+  </label>
+  <label>
+    Enter Group description:
+    <input
+      name="description"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter Group Privacy:
+    <input
+      name="privacy"
+      onChange={[Function]}
+      placeholder="0 for public, 1 for private"
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter Group Tags:
+    <input
+      name="tags"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <button
+    type="submit"
+  >
+     Submit 
+  </button>
+</form>
+`;

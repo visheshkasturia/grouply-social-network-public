@@ -1,0 +1,68 @@
+.postHeader {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 20% 40% 20% 20%;
+  margin-bottom: 40px;
+  height: 350px;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 10px;
+  background: #f0e7e6;
+}
+
+.postHeader-title {
+  grid-row: 1/ span 1;
+  grid-column: 1/ span 3;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postHeader-content {
+  grid-row: 2/ span 1;
+  grid-column: 1/ span 3;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.postHeader-author {
+  grid-row: 3/ span 1;
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.postHeader-comment {
+  grid-row: 3/ span 1;
+  grid-column: 2/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postHeader-flagged {
+  grid-row: 3/ span 1;
+  grid-column: 3/ span 3;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postHeader-addComment {
+  grid-row: 4/ span 1;
+  grid-column: 1/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.postHeader-flagPost {
+  grid-row: 4/ span 1;
+  grid-column: 3/ span 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}

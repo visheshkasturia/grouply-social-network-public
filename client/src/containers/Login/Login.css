@@ -1,0 +1,107 @@
+.Login {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background: #f0e7e6;
+}
+
+.signup-link{
+  text-decoration: none;
+  color: black;
+  /* font-size: 18px; */
+  border: solid 1px black;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #e7e7e7;
+}
+
+input[type=text] {
+  border: 2px solid grey;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 70%;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=password] {
+  border: 2px solid grey;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 70%;
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+}
+
+textarea {
+  border: 2px solid grey;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  height: 80px;
+  width: 70%;
+}
+
+textarea {
+  border: 3px solid #555;
+}
+
+input[type=file] {
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 30%;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  padding: 5px;
+}
+
+button {
+  display: block;
+  border: solid 3px black;
+  border-radius: 8px;
+  height: 60px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+.test-credentials {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 500px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background: #f0e7e6;
+}

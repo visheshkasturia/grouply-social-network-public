@@ -1,0 +1,69 @@
+.userPage{
+    min-height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 10% 10% 10% 50%;
+    border: solid 1px black;
+    /* color: white; */
+  }
+
+  .id-details{
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 1;
+    border: 1px solid black;
+  }
+  
+  .req-details{
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 1;
+    border: 1px solid black;
+  }
+  
+  .assignee-details{
+    grid-column: 1/ span 1;
+    grid-row: 2/ span 1;
+    border: 1px solid black;
+  }
+  
+  .org-details{
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 1;
+    border: 1px solid black;
+  }
+  
+  .created-details{
+    grid-column: 1/ span 1;
+    grid-row: 3/ span 1;
+    border: 1px solid black;
+  }
+  
+  .updated-details{
+    grid-column: 2/ span 1;
+    grid-row: 3/ span 1;
+    border: 1px solid black;
+  }
+  
+  .status-details{
+    grid-column: 1/ span 1;
+    grid-row: 4/ span 1;
+    border: 1px solid black;
+  }
+  
+  .priority-details{
+    grid-column: 2/ span 1;
+    grid-row: 4/ span 1;
+    border: 1px solid black;
+  }
+  
+  .subject-details{
+    grid-column: 1/ span 2;
+    grid-row: 5/ span 1;
+    border: 1px solid black;
+  }
+  
+  .desc-details{
+    grid-column: 1/ span 2;
+    grid-row: 6/ span 1;
+    border: 1px solid black;
+  }

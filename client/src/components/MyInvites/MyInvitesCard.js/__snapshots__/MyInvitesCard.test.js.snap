@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Members matches snapshot 1`] = `
+<div
+  className="invite-card-container"
+>
+  <div
+    className="invite-card-groupName"
+  />
+  <div
+    className="invite-card-accept"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+       Accept 
+    </button>
+  </div>
+  <div
+    className="invite-card-reject"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+       Reject 
+    </button>
+  </div>
+</div>
+`;

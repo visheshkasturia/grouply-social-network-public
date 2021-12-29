@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePost matches snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Enter Post Title:
+    <input
+      name="postTitle"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label>
+    Enter Post Content:
+    <textarea
+      cols="40"
+      name="postContent"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+  </label>
+  <label>
+    Enter Post hashtags:
+    <input
+      name="hashTags"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label>
+    Enter Group Name you want to Post in:
+    <input
+      name="partOf"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <label>
+     Upload Image 
+  </label>
+  <input
+    id="imageUpload"
+    onChange={[Function]}
+    type="file"
+  />
+  <label>
+     Upload Audio/Video 
+  </label>
+  <input
+    id="VideoUpload"
+    onChange={[Function]}
+    type="file"
+  />
+  <br />
+  <button
+    type="submit"
+  >
+     Submit 
+  </button>
+</form>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentItem matches snapshot 1`] = `
+<div
+  className="commentItem"
+>
+  <div
+    className="comment-content"
+  >
+     
+    Test- add comment BE - 1??
+  </div>
+  <div
+    className="comment-author"
+  >
+     Author: 
+    61abcfdf692a1b833a551528
+  </div>
+  <div
+    className="comment-edit"
+  >
+    <button
+      onClick={[Function]}
+    >
+       Edit Comment 
+    </button>
+  </div>
+  <div
+    className="comment-delete"
+  >
+    <button
+      onClick={[Function]}
+    >
+       Delete Comment 
+    </button>
+  </div>
+</div>
+`;
+
+exports[`CommentsList matches snapshot 1`] = `
+<div>
+  <div
+    className="commentItem"
+  >
+    <div
+      className="comment-content"
+    >
+       
+      Test- add comment BE - 1??
+    </div>
+    <div
+      className="comment-author"
+    >
+       Author: 
+      61abcfdf692a1b833a551528
+    </div>
+    <div
+      className="comment-edit"
+    >
+      <button
+        onClick={[Function]}
+      >
+         Edit Comment 
+      </button>
+    </div>
+    <div
+      className="comment-delete"
+    >
+      <button
+        onClick={[Function]}
+      >
+         Delete Comment 
+      </button>
+    </div>
+  </div>
+</div>
+`;
