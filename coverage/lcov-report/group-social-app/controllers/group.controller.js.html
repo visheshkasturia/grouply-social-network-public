@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.87% </span>
+                <span class="strong">69.69% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>29/33</span>
+                <span class='fraction'>23/33</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">55.55% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>6/9</span>
+                <span class='fraction'>5/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.87% </span>
+                <span class="strong">69.69% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>29/33</span>
+                <span class='fraction'>23/33</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -457,14 +457,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -777,8 +777,8 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -817,14 +817,14 @@ router.route('/create').post(async (request, response) =&gt; {
       dateCreated: Date.now(),
     }
 &nbsp;
-    const newGroupObj = new Group(newGroup);
+    const newGroupObj = <span class="cstat-no" title="statement not covered" >new Group(newGroup);</span>
 &nbsp;
-    newGroupObj.save()
-      .then(async (group) =&gt; {
-        adminUser.memberOf.push(group.groupName)
-        await User.findByIdAndUpdate(adminUser._id, adminUser, { new: true })
-        console.log(group)
-        response.json(group)
+<span class="cstat-no" title="statement not covered" >    newGroupObj.save()</span>
+      .then(<span class="fstat-no" title="function not covered" >as</span>ync (group) =&gt; {
+<span class="cstat-no" title="statement not covered" >        adminUser.memberOf.push(group.groupName)</span>
+<span class="cstat-no" title="statement not covered" >        await User.findByIdAndUpdate(adminUser._id, adminUser, { new: true })</span>
+<span class="cstat-no" title="statement not covered" >        console.log(group)</span>
+<span class="cstat-no" title="statement not covered" >        response.json(group)</span>
       })
       .catch(<span class="fstat-no" title="function not covered" >(e</span>rr) =&gt; <span class="cstat-no" title="statement not covered" >response.status(400).send('invalid input, object invalid' + err))</span>;
   }
@@ -1137,8 +1137,8 @@ router.route('/getGroupByID/:gid').get(async (request, response) =&gt; {
   console.log('GetGroupByID called');
   const groupID = request.params.gid;
   Group.findById(groupID)
-    .then((group) =&gt; response.json(group))
-    .catch(<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >response.status(400).send('Error in getting group'))</span>
+    .then(<span class="fstat-no" title="function not covered" >(g</span>roup) =&gt; <span class="cstat-no" title="statement not covered" >response.json(group))</span>
+    .catch(() =&gt; response.status(400).send('Error in getting group'))
 });
 &nbsp;
 &nbsp;
@@ -1150,7 +1150,7 @@ module.exports = router;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener">istanbul</a>
-                at Thu Dec 23 2021 22:48:02 GMT-0800 (Pacific Standard Time)
+                at Wed Dec 29 2021 11:02:30 GMT-0800 (Pacific Standard Time)
             </div>
         </div>
         <script src="../../prettify.js"></script>
