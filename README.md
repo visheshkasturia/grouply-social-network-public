@@ -1,6 +1,6 @@
 # Grouply.xyz - Social Network Group App
 
-Grouply is a group social networking app with extensive Group, Post, Comment, Admin features. The frontend has been built using React, the backend utilises Node.js, Express.js and MongoDB, testing is done using Jest, SuperTest and Cypress and the app deployed to [grouply.xyz](https://www.grouplu.xyz) using Heroku.
+Grouply is a group social networking app with extensive Group, Post, Comment, Admin features. The frontend has been built using React, the backend utilises Node.js, Express.js and MongoDB, testing is done using Jest, SuperTest and Cypress and the app deployed to [grouply.xyz](https://www.grouply.xyz) using Heroku.
 
 ## Table of Contents
 
